@@ -1,20 +1,20 @@
 import { TerminalLine } from './terminal-line';
 
 export const DATA: TerminalLine[] = [
-  { id: 1, text: "System Boot", type: "info", pause: 0.1 , active: false},
-  { id: 2, text: "-----------", type: "info", pause: 0.1 , active: false},
-  { id: 3, text: "Premature Reboot Detected: Analysing", type: "info", pause: 0 , active: false},
-  { id: 4, text: "System shut down unexpectedly - work in progress may have been lost", type: "info", pause: 2, active: false},
-  { id: 5, text: "Inspecting Cache", type: "info", pause: 1 , active: false},
-  { id: 6, text: "1 File Reference Detected: 'Brexit Plans.doc'", type: "info", pause: 3 , active: false},
-  { id: 7, text: "Attempting Recovery of 'Brexit Plans.doc'", type: "info", pause: 1 , active: false},
-  { id: 8, text: "Unable to recover 'Brexit Plans.doc' | File Does Not Exist", type: "alert", pause: 1.5 , active: false},
-  { id: 9, text: "Running Diagnostic Checks", type: "info", pause: 2, active: false },
-  { id: 10, text: "Economy Module (LTEP): Unstable - Resource allocation is limited to 1% - other services will suffer", type: "info", pause: 2, active: false},
-  { id: 11, text: "System Healthcheck Module: Error - NHS.svc fragmented", type: "info", pause: 2, active: false},
-  { id: 12, text: "Security Module: Compromised - Unable to start up new security workers", type: "info", pause: 2, active: false },
-  { id: 13, text: "Malware Detected: t0ri35.bin", type: "alert", pause: 4, active: false },
-  { id: 14, text: "ALERT: System Failure Imminent", type: "alert", pause: 2, active: false },
-  { id: 15, text: "Gov.OS 2019 is Available: Upgrading", type: "info", pause: 2, active: false },
-  { id: 15, text: "Upgrade installed - rebooting...", type: "info", pause: 2, active: false }
+  { id: 1, text: 'Herzlichen Glückwunsch zu Ihrem neuen Kampfjet!', type: 'info', pause: 1 , active: false},
+  { id: 2, text: '-----------', type: 'info', pause: 1 , active: false},
+  { id: 3, text: 'Booting system...', type: 'info', pause: 1.6, active: false},
+  { id: 4, text: 'Running system checks...', type: 'info', pause: 0.3 , active: false},
+  { id: 5, text: 'Initialising antigravity modules...', type: 'info', pause: 0.1 , active: true},
+  { id: 6, text: 'Unable to complete startup: Exit code -1 ', type: 'alert', pause: 0.1 , active: false},
+  { id: 7, text: 'Trying to restart...', type: 'info', pause: 3 , active: false},
+  { id: 8, text: 'Error 07: Memory control block destroyed.', type: 'alert', pause: 1 , active: false},
+  { id: 9, text: 'Error 24: Bad request structure length.', type: 'alert', pause: 0.3, active: true },
+  { id: 10, text: 'Error 66: Network device type incorrect.', type: 'alert', pause: 0.5, active: false},
+  { id: 11, text: 'Segmentation fault (core dumped)', type: 'info', pause: 0.3, active: true},
+  { id: 12, text: 'Retrying system checks...', type: 'info', pause: 2, active: true },
+  { id: 13, text: 'Warning: 837 Bugs found.', type: 'alert', pause: 2, active: false },
+  { id: 14, text: 'You spent 6\'000\'000\'000 CHF on this?', type: 'info', pause: 2, active: false },
+  { id: 15, text: 'Referendum found - Sign now to prevent further damage!', type: 'info', pause: 2, active: false },
+  { id: 15, text: 'Loading referendum, please wait...', type: 'info', pause: 2, active: false }
 ]

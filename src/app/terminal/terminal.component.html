@@ -1,11 +1,13 @@
 <div *ngIf="!svc.finished" id="terminal" class="terminal">
-  <h1>Gov.OS 2017</h1>
+  <h1>F 35 OS - Swiss Edition</h1>
   <p *ngFor="let t of svc.data" class="terminal-line {{t.type}} ">{{t.text}}</p>
   <i id="spinner" class="spinner">_</i>
 </div>
 <div *ngIf="svc.finished" id="bootscreen" class="bootscreen">
+  <a href="https://wecollect.ch/de/campaign/kampfjets/">
   <img src="assets/logo-white.png" class="boot-logo">
+  </a>
   <div class="copy">
-    <a href="http://www.codersforlabour.com/" target="_blank" title="Coders for Labour">Coders For Labour - Created by Volunteers</a>
+    <a href="https://wecollect.ch/de/campaign/kampfjets/" target="_blank" title="Nein zu den Kampfjetmilliarden">Nein zu den Kampfjetmilliarden!</a>
   </div>
 </div>
