@@ -1,4 +1,6 @@
-# Tory.Os
+# F-35-OS (Tory.Os)
+
+This is a modified version of [tory.os](https://github.com/coders-for-labour/toryos) to reflect the bugs that have been detected in the F35 aircraft.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
 
